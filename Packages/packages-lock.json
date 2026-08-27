@@ -34,7 +34,7 @@
     },
     "com.unity.2d.animation": {
       "version": "10.2.2",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "9.1.1",
@@ -59,7 +59,7 @@
     },
     "com.unity.2d.common": {
       "version": "9.1.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.8.4",
@@ -72,14 +72,14 @@
     },
     "com.unity.2d.pixel-perfect": {
       "version": "5.0.3",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.psdimporter": {
       "version": "9.1.1",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "9.1.1",
@@ -89,13 +89,13 @@
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
-      "depth": 1,
+      "depth": 0,
       "source": "builtin",
       "dependencies": {}
     },
     "com.unity.2d.spriteshape": {
       "version": "10.0.7",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "9.0.7",
@@ -106,7 +106,7 @@
     },
     "com.unity.2d.tilemap": {
       "version": "1.0.0",
-      "depth": 1,
+      "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.tilemap": "1.0.0",
@@ -193,6 +193,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.ide.vscode": {
+      "version": "1.2.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.inputsystem": {
       "version": "1.19.0",
       "depth": 0,
@@ -219,9 +226,28 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.6",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.package-validation-suite": {
+      "version": "0.23.4-preview",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "0.1.6-preview.2"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.postprocessing": {
+      "version": "3.5.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {

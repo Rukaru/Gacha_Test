@@ -1,9 +1,9 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI/USS/MainUI.uss?fileID=7433441132597879392&amp;guid=dd316bdd57dd4b04b9b204f035b39392&amp;type=3#MainUI" />
+    <Style src="project://database/Assets/UI/USS/MainUI_.uss?fileID=7433441132597879392&amp;guid=dd316bdd57dd4b04b9b204f035b39392&amp;type=3#MainUI_" />
     <ui:VisualElement name="MainContainer" style="flex-grow: 1; width: 100%; height: 100%; flex-direction: column; justify-content: center; align-items: center;">
-        <ui:VisualElement name="CardArea" style="flex-grow: 1; width: 565px; height: 200px; justify-content: center; align-items: center; min-height: auto;">
-            <ui:VisualElement name="CardImage" style="flex-grow: 1; justify-content: flex-end; align-self: center; width: 100%; height: 100%;" />
+        <ui:VisualElement name="CardArea" style="flex-grow: 1; width: 1000px; height: 157px; justify-content: center; align-items: center; min-height: auto; bottom: -10px;">
+            <ui:VisualElement name="CardImage" style="flex-grow: 1; justify-content: flex-end; align-self: center; width: 100%; height: 100%; align-content: flex-start;" />
         </ui:VisualElement>
-        <ui:Button text="Pull Gacha" name="GachaButton" data-source="project://database/Assets/TextMesh%20Pro/Resources/Fonts%20&amp;%20Materials/LiberationSans%20SDF.asset?fileID=11400000&amp;guid=8f586378b4e144a9851e7b34d9b748ee&amp;type=2#LiberationSans SDF" style="height: 90px; font-size: 86px; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&quot;); -unity-font-style: bold; align-items: center;" />
+        <ui:Button text="ガチャを引く" name="GachaButton" data-source="project://database/Assets/TextMesh%20Pro/Resources/Fonts%20&amp;%20Materials/LiberationSans%20SDF.asset?fileID=11400000&amp;guid=8f586378b4e144a9851e7b34d9b748ee&amp;type=2#LiberationSans SDF" style="height: 90px; font-size: 80px; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&quot;); -unity-font-style: bold; align-items: center;" />
     </ui:VisualElement>
 </ui:UXML>
